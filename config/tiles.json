@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "source": "example-seed",
+  "placeholder": true,
+  "placeholderNote": "These tiles are examples, not a final set. The app tiles are marked to be replaced later by a keep, fold, or remove plan. Mission Control does not merge other companies' apps. Edit the list on this device in Setup, or change config/tiles.json before you deploy.",
+  "tiles": [
+    {
+      "id": "geosentinel",
+      "name": "GeoSentinel",
+      "icon": "radar",
+      "category": "panels",
+      "target": "https://mr-mission-control.github.io/geosentinel-dashboard/",
+      "note": "Public GeoSentinel dashboard. The same address still opens if a newer mirror has not finished deploying."
+    },
+    {
+      "id": "clawbot",
+      "name": "Clawbot",
+      "icon": "claw",
+      "category": "panels",
+      "target": "https://mr-mission-control.github.io/geosentinel-dashboard/#clawbot-panel",
+      "note": "Clawbot section (#clawbot-panel) on the public dashboard. The dashboard still opens if the mirror has not published that section yet. This hub does not copy panel data."
+    },
+    {
+      "id": "automate",
+      "name": "Automate",
+      "icon": "flow",
+      "category": "automate",
+      "target": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.llamalab.automate;S.browser_fallback_url=https%3A%2F%2Fllamalab.com%2Fautomate%2F;end",
+      "fallback": "https://llamalab.com/automate/",
+      "note": "Opens the Automate app on Android. Flows are imported and started on the phone. This hub sends no command."
+    },
+    {
+      "id": "automate-example-flow",
+      "name": "Example flow",
+      "icon": "play",
+      "category": "automate",
+      "placeholder": true,
+      "target": "intent://com.llamalab.automate.provider/flows/EXAMPLE/statements/1#Intent;scheme=content;action=com.llamalab.automate.intent.action.START_FLOW;component=com.llamalab.automate/.StartServiceReceiver;package=com.llamalab.automate;end",
+      "note": "Example only. Replace EXAMPLE with the flow id from the flow's beginning block on the phone. Tapping hands an intent to Automate. This hub does not import, upload, or start the flow."
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "icon": "folder",
+      "category": "apps",
+      "placeholder": true,
+      "target": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.google.android.apps.docs;S.browser_fallback_url=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmy-drive;end",
+      "fallback": "https://drive.google.com/drive/my-drive",
+      "note": "Placeholder app tile. Keep, fold, or remove it in a later plan."
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "icon": "mail",
+      "category": "apps",
+      "placeholder": true,
+      "target": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.google.android.gm;S.browser_fallback_url=https%3A%2F%2Fmail.google.com%2Fmail%2F;end",
+      "fallback": "https://mail.google.com/mail/",
+      "note": "Placeholder app tile. Keep, fold, or remove it in a later plan."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "icon": "video",
+      "category": "apps",
+      "placeholder": true,
+      "target": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.google.android.youtube;S.browser_fallback_url=https%3A%2F%2Fwww.youtube.com%2F;end",
+      "fallback": "https://www.youtube.com/",
+      "note": "Placeholder app tile. Keep, fold, or remove it in a later plan."
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "icon": "post",
+      "category": "apps",
+      "placeholder": true,
+      "target": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.twitter.android;S.browser_fallback_url=https%3A%2F%2Fx.com%2F;end",
+      "fallback": "https://x.com/",
+      "note": "Placeholder app tile. Keep, fold, or remove it in a later plan."
+    },
+    {
+      "id": "kofi",
+      "name": "Ko-fi",
+      "icon": "cup",
+      "category": "support",
+      "target": "https://ko-fi.com/mrmissioncontrol",
+      "note": "Public support page."
+    }
+  ]
+}
