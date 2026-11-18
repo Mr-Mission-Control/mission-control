@@ -1,4 +1,4 @@
-const CACHE = "mission-control-shell-v2"
+const CACHE = "mission-control-shell-v3"
 
 const PRECACHE = [
   "./",
@@ -9,6 +9,9 @@ const PRECACHE = [
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-512.png",
+  "./audio/mission_control_launch_sting.mp3",
+  "./audio/mission_control_launch_sting.ogg",
+  "./audio/LICENSE-sting.md",
 ]
 
 self.addEventListener("install", (event) => {

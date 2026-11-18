@@ -79,6 +79,30 @@
       "note": "Placeholder app tile. Keep, fold, or remove it in a later plan."
     },
     {
+      "id": "theme-mission-control",
+      "name": "Theme: Mission Control (Knox Hamilton)",
+      "icon": "video",
+      "category": "apps",
+      "target": "https://youtu.be/2_hr0MwzX6A",
+      "note": "Opens on YouTube. This song belongs to Knox Hamilton and is not bundled in the app."
+    },
+    {
+      "id": "theme-space-oddity",
+      "name": "Theme: Space Oddity (David Bowie)",
+      "icon": "video",
+      "category": "apps",
+      "target": "https://youtu.be/iYYRH4apXDo",
+      "note": "Opens on YouTube. This song belongs to David Bowie and is not bundled in the app."
+    },
+    {
+      "id": "launch-sting",
+      "name": "Launch sting",
+      "icon": "play",
+      "category": "apps",
+      "target": "./audio/mission_control_launch_sting.mp3",
+      "note": "Original MIT launch intro by Lyra Audio-Video Studio. Plays the audio file included with this app. It uses no melody, lyrics, or samples from the Knox Hamilton or David Bowie songs."
+    },
+    {
       "id": "kofi",
       "name": "Ko-fi",
       "icon": "cup",
